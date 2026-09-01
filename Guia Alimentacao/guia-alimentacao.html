@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Guia de Alimentos Saudáveis</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <title>Guia de Alimentação</title>
+
+    <link
+        rel="stylesheet"
+        href="guia-alimentacao.css"
+    >
 </head>
 
 <body>
@@ -18,174 +25,158 @@
 
         <nav>
             <a href="index.html">HOME</a>
-            <a href="guia-alimentacao.html">GUIA DE ALIMENTOS</a>
-            <a href="#">O QUE EVITAR</a>
-            <a href="#">SAÚDE</a>
+
+            <a href="guia-alimentacao.html">
+                GUIA DE ALIMENTOS
+            </a>
+
+            <a href="#">
+                O QUE EVITAR
+            </a>
+
+            <a href="#">
+                SAÚDE
+            </a>
         </nav>
 
     </header>
 
 
-    <main class="container">
+    <main>
 
-        <div class="cards">
+        <section>
+            <h2>FRUTAS</h2>
 
-            <section class="card">
-                <h2>FRUTAS</h2>
+            <p class="icone">🍎 🍌</p>
 
-                <div class="emoji">
-                    
-                </div>
+            <ul>
+                <li>Maçã</li>
+                <li>Banana</li>
+                <li>Laranja</li>
+                <li>Morango</li>
+                <li>Mamão</li>
+            </ul>
 
-                <ul>
-                    <li>Maçã</li>
-                    <li>Banana</li>
-                    <li>Laranja</li>
-                    <li>Morango</li>
-                    <li>Mamão</li>
-                </ul>
+            <button onclick="mostrarDica('frutas')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('frutas')">
-                    Ver dica
-                </button>
-
-                <p id="frutas" class="dica"></p>
-
-            </section>
+            <p id="frutas"></p>
+        </section>
 
 
-            <section class="card">
+        <section>
+            <h2>VEGETAIS</h2>
 
-                <h2>VEGETAIS</h2>
+            <p class="icone">🥦 🥕</p>
 
-                <div class="emoji">
-                   
-                </div>
+            <ul>
+                <li>Brócolis</li>
+                <li>Cenoura</li>
+                <li>Tomate</li>
+                <li>Alface</li>
+                <li>Abóbora</li>
+            </ul>
 
-                <ul>
-                    <li>Brócolis</li>
-                    <li>Cenoura</li>
-                    <li>Tomate</li>
-                    <li>Alface</li>
-                    <li>Abóbora</li>
-                </ul>
+            <button onclick="mostrarDica('vegetais')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('vegetais')">
-                    Ver dica
-                </button>
-
-                <p id="vegetais" class="dica"></p>
-
-            </section>
+            <p id="vegetais"></p>
+        </section>
 
 
-            <section class="card">
+        <section>
+            <h2>PROTEÍNAS</h2>
 
-                <h2>PROTEÍNAS</h2>
+            <p class="icone">🍗 🐟</p>
 
-                <div class="emoji">
-                    🍗 🐟
-                </div>
+            <ul>
+                <li>Frango</li>
+                <li>Peixe</li>
+                <li>Ovos</li>
+                <li>Feijão</li>
+                <li>Carnes magras</li>
+            </ul>
 
-                <ul>
-                    <li>Frango</li>
-                    <li>Peixe</li>
-                    <li>Ovos</li>
-                    <li>Feijão</li>
-                    <li>Carnes magras</li>
-                </ul>
+            <button onclick="mostrarDica('proteinas')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('proteinas')">
-                    Ver dica
-                </button>
-
-                <p id="proteinas" class="dica"></p>
-
-            </section>
+            <p id="proteinas"></p>
+        </section>
 
 
-            <section class="card">
+        <section>
+            <h2>GRÃOS</h2>
 
-                <h2>GRÃOS</h2>
+            <p class="icone">🍞 🍚</p>
 
-                <div class="emoji">
-                   
-                </div>
+            <ul>
+                <li>Arroz</li>
+                <li>Aveia</li>
+                <li>Pão integral</li>
+                <li>Milho</li>
+                <li>Quinoa</li>
+            </ul>
 
-                <ul>
-                    <li>Arroz</li>
-                    <li>Aveia</li>
-                    <li>Pão integral</li>
-                    <li>Milho</li>
-                    <li>Quinoa</li>
-                </ul>
+            <button onclick="mostrarDica('graos')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('graos')">
-                    Ver dica
-                </button>
-
-                <p id="graos" class="dica"></p>
-
-            </section>
+            <p id="graos"></p>
+        </section>
 
 
-            <section class="card">
+        <section>
+            <h2>LATICÍNIOS</h2>
 
-                <h2>LATICÍNIOS</h2>
+            <p class="icone">🥛 🧀</p>
 
-                <div class="emoji">
-                    🥛 🧀
-                </div>
+            <ul>
+                <li>Leite</li>
+                <li>Iogurte</li>
+                <li>Queijo</li>
+                <li>Coalhada</li>
+            </ul>
 
-                <ul>
-                    <li>Leite</li>
-                    <li>Iogurte</li>
-                    <li>Queijo</li>
-                    <li>Coalhada</li>
-                </ul>
+            <button onclick="mostrarDica('laticinios')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('laticinios')">
-                    Ver dica
-                </button>
-
-                <p id="laticinios" class="dica"></p>
-
-            </section>
+            <p id="laticinios"></p>
+        </section>
 
 
-            <section class="card">
+        <section>
+            <h2>HIDRATAÇÃO</h2>
 
-                <h2>HIDRATAÇÃO</h2>
+            <p class="icone">💧</p>
 
-                <div class="emoji">
-                    💧
-                </div>
+            <ul>
+                <li>Beba água durante o dia</li>
+                <li>Evite refrigerantes em excesso</li>
+                <li>Prefira bebidas sem muito açúcar</li>
+            </ul>
 
-                <ul>
-                    <li>Beba água durante o dia</li>
-                    <li>Evite excesso de refrigerantes</li>
-                    <li>Prefira bebidas sem muito açúcar</li>
-                </ul>
+            <button onclick="mostrarDica('agua')">
+                Ver dica
+            </button>
 
-                <button onclick="mostrarDica('agua')">
-                    Ver dica
-                </button>
-
-                <p id="agua" class="dica"></p>
-
-            </section>
-
-        </div>
+            <p id="agua"></p>
+        </section>
 
     </main>
 
 
     <footer>
-        <p>Projeto Lagarta - Alimentação saudável para crianças</p>
+        <p>
+            Projeto Lagarta - Alimentação saudável para crianças
+        </p>
     </footer>
 
 
-    <script src="script.js"></script>
+    <script src="guia-alimentacao.js"></script>
 
 </body>
 
