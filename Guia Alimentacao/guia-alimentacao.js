@@ -1,29 +1,29 @@
 function mostrarDica(categoria) {
-    let mensagem = "";
 
-    if (categoria === "frutas") {
-        mensagem = "As frutas possuem vitaminas, fibras e minerais importantes para o crescimento.";
-    }
+    const dicas = {
 
-    else if (categoria === "vegetais") {
-        mensagem = "Os vegetais ajudam na imunidade e no funcionamento do organismo.";
-    }
+        frutas:
+            "As frutas possuem vitaminas, fibras e minerais importantes para o crescimento.",
 
-    else if (categoria === "proteinas") {
-        mensagem = "As proteínas ajudam no crescimento e na formação dos músculos.";
-    }
+        vegetais:
+            "Os vegetais ajudam no funcionamento do organismo e na imunidade.",
 
-    else if (categoria === "graos") {
-        mensagem = "Os grãos fornecem energia para estudar, brincar e praticar atividades.";
-    }
+        proteinas:
+            "As proteínas ajudam no crescimento e na formação dos músculos.",
 
-    else if (categoria === "laticinios") {
-        mensagem = "Leite e derivados são importantes fontes de cálcio.";
-    }
+        graos:
+            "Os grãos fornecem energia para estudar, brincar e praticar atividades.",
 
-    else if (categoria === "agua") {
-        mensagem = "Beber água durante o dia ajuda a manter o corpo hidratado.";
-    }
+        laticinios:
+            "Leite e derivados são importantes fontes de cálcio.",
 
-    document.getElementById(categoria).innerHTML = mensagem;
+        agua:
+            "Beber água durante o dia ajuda a manter o corpo hidratado."
 
+    };
+
+
+    document.getElementById(categoria).textContent =
+        dicas[categoria];
+
+}
