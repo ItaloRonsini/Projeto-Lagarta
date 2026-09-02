@@ -22,8 +22,47 @@ function mostrarDica(categoria) {
 
     };
 
+    document.getElementById(categoria).textContent = dicas[categoria];
+}
 
-    document.getElementById(categoria).textContent =
-        dicas[categoria];
 
+let diasFeitos = 0;
+
+
+function marcarDia() {
+
+    if (diasFeitos < 7) {
+        diasFeitos++;
+    }
+
+    document.getElementById("progresso").value = diasFeitos;
+
+    document.getElementById("contador").textContent =
+        diasFeitos + "/7 dias";
+
+    let marcacoes = "";
+
+    for (let i = 1; i <= 7; i++) {
+
+        if (i <= diasFeitos) {
+            marcacoes += "✅ ";
+        } else {
+            marcacoes += "⬜ ";
+        }
+    }
+
+    document.getElementById("dias").textContent = marcacoes;
+
+    let faltam = 7 - diasFeitos;
+
+    if (faltam > 0) {
+
+        document.getElementById("incentivo").textContent =
+            "Faltam só " + faltam + " dias!";
+
+    } else {
+
+        document.getElementById("incentivo").textContent =
+            "Parabéns! Você completou o desafio!";
+    }
 }
