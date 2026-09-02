@@ -21,13 +21,7 @@
 
         <h1>GUIA DE ALIMENTOS SAUDÁVEIS</h1>
 
-        <nav>
-
-            <a href="guia-alimentacao.html">
-                GUIA DE ALIMENTOS
-            </a>
-           
-        </nav>
+  
 
     </header>
 
@@ -37,8 +31,7 @@
         <section>
             <h2>FRUTAS</h2>
 
-          
-
+            
             <ul>
                 <li>Maçã</li>
                 <li>Banana</li>
@@ -51,14 +44,14 @@
                 Ver dica
             </button>
 
-            <p id="frutas"></p>
+           <p id="frutas" class="dica"></p>
         </section>
 
 
         <section>
             <h2>VEGETAIS</h2>
 
-           
+          
 
             <ul>
                 <li>Brócolis</li>
@@ -72,14 +65,14 @@
                 Ver dica
             </button>
 
-            <p id="vegetais"></p>
+            <p id="vegetais" class="dica"></p>
         </section>
 
 
         <section>
             <h2>PROTEÍNAS</h2>
 
-          
+         
 
             <ul>
                 <li>Frango</li>
@@ -93,14 +86,14 @@
                 Ver dica
             </button>
 
-            <p id="proteinas"></p>
+            <p id="proteinas" class="dica"></p>
         </section>
 
 
         <section>
             <h2>GRÃOS</h2>
 
-        
+       
 
             <ul>
                 <li>Arroz</li>
@@ -114,14 +107,14 @@
                 Ver dica
             </button>
 
-            <p id="graos"></p>
+            <p id="graos" class="dica"></p>
         </section>
 
 
         <section>
             <h2>LATICÍNIOS</h2>
 
-          
+           
 
             <ul>
                 <li>Leite</li>
@@ -134,14 +127,14 @@
                 Ver dica
             </button>
 
-            <p id="laticinios"></p>
+            <p id="laticinios"class="dica"></p>
         </section>
-
+ 
 
         <section>
             <h2>HIDRATAÇÃO</h2>
 
-          
+            
 
             <ul>
                 <li>Beba água durante o dia</li>
@@ -153,21 +146,46 @@
                 Ver dica
             </button>
 
-            <p id="agua"></p>
+            <p id="agua" class="dica"></p>
         </section>
+        <section>
+            <h2>OBJETIVOS</h2>
+        
+            <h3>Desafio da Semana</h3>
+        
+            <p>
+                coma pelo menos um item de cada grupo alimentar por 7 dias seguidos e marque os dias que você conseguiu cumprir o desafio.
+            </p>
+        
+            <progress id="progresso" value="0" max="7"></progress>
+        
+            <p id="contador">0/7 dias</p>
+        
+            <p id="dias">
+           ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+              
+            </p>
+        
+            <button onclick="marcarDia()">
+                Marcar como feito  
+            </button>
+        
+            <p id="incentivo">
+                Vamos começar!
+            </p>
+        </section>
+        
 
     </main>
 
-
     <footer>
-        <p>
-            Projeto Lagarta - Alimentação saudável para crianças
-        </p>
-    </footer>
-
+    <p>Projeto Lagarta - Alimentação saudável para crianças</p>
+</footer>
 
     <script src="guia-alimentacao.js"></script>
 
 </body>
+
+
 
 </html>
