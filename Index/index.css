@@ -1,21 +1,16 @@
-
-
 :root {
-  /* verdes (base: referência #a8d5a2 / #8fc98a) */
   --green-bg:      #a8d5a2;
   --green-btn:     #8fc98a;
   --green-btn-hov: #75b870;
   --green-text:    #2f6b32;
   --green-light:   #e3f2e1;
 
-  /* azuis (par do verde, mesma "temperatura" de tom) */
   --blue-bg:       #a2cbe0;
   --blue-btn:      #83bcdb;
   --blue-btn-hov:  #63a4c6;
   --blue-text:     #1f5372;
   --blue-light:    #e1eef5;
 
-  /*só para evitar*/
   --coral-bg:      #e0a2a2;
   --coral-btn:     #d97d7d;
   --coral-text:    #7a2020;
@@ -31,8 +26,8 @@
   --radius-btn: 8px;
 }
 
-/* ── base ─────────────────────────────────────────── */
 * { box-sizing: border-box; }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -43,104 +38,31 @@ h1, h2, h3 { margin-top: 0; color: var(--ink); }
 p { margin: 0 0 10px; }
 ul { text-align: left; padding-left: 25px; margin: 0; }
 li { margin-bottom: 8px; }
-img { max-width: 100%; display: block; }
+img {
+    max-width: 175px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
 a { color: var(--blue-text); }
 button {
   font-family: Arial, sans-serif;
   cursor: pointer;
 }
-img {
-  width: 240px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50% ;
-}
-.site-logo-warp {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 16px 20px 0;
-}
-.site-logo{
-  width: 70px;
-  height: 70px;
-  object-fit:cover;
-  border-radius: 50%;
-  border:2px solid var(--border);
-}
+
 /* ══════════════════ cabeçalho ══════════════════ */
-body > nav {
-  background-color: var(--green-bg);
-  text-align: center;
-  padding: 20px;
-  border-bottom: 2px solid var(--border);
+header {
+    background-color: #a8d5a2;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
 }
-.nav-inner {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-.nav-links {
-  display: flex;
-  gap: 8px;
-  padding-left: 0;
-}
-.nav-btn {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 10px 18px;
-  font-weight: bold;
-}
-.nav-btn:hover { background-color: var(--green-light); }
-.nav-btn.active { background-color: var(--green-btn); }
-
-.hamburger {
-  display: none;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  background: var(--card-bg);
-  padding: 8px;
-}
-
-.mobile-menu {
-  display: none;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px 0 0;
-}
-.mobile-menu.active,
-.mobile-menu.open,
-.mobile-menu.show { display: flex; }
-.mobile-nav-btn {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 10px 14px;
-  font-weight: bold;
-  text-align: left;
-}
-.mobile-nav-btn.active { background-color: var(--green-btn); }
-
-@media (max-width: 800px) {
-  .nav-links { display: none; }
-  .hamburger { display: block; }
-}
+header h1 { margin: 0; }
 
 /* ══════════════════ TROCA DE PÁGINA ══════════════════ */
 .page { display: none; }
 .page.active { display: block; }
-
 
 .hero, .why-section, .cta-strip,
 .guide-inner, .articles-inner, .contact-inner {
@@ -148,7 +70,6 @@ body > nav {
   margin: 30px auto;
   padding: 20px;
 }
-
 
 .blob { display: none; }
 
@@ -186,10 +107,20 @@ body > nav {
 .btn-white:hover { background-color: var(--green-light); }
 
 .img-frame {
-  display: block;
-  border: 2px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
+    display: block;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img-frame img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 .badge {
   display: inline-block;
@@ -517,15 +448,6 @@ footer {
   text-align: center;
   padding: 20px;
   border-top: 2px solid var(--border);
-}
-.footer-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 6px;
 }
 
 /* ══════════════════ RESPONSIVO GERAL ══════════════════ */
