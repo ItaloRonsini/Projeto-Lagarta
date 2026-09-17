@@ -22,7 +22,11 @@ function mostrarDica(categoria) {
 
     };
 
-    document.getElementById(categoria).textContent = dicas[categoria];
+    if(document.getElementById(categoria).textContent === "") {
+        document.getElementById(categoria).textContent = dicas[categoria];
+    } else {
+        document.getElementById(categoria).textContent = "";
+    }
 }
 
 
