@@ -51,7 +51,7 @@ button {
   cursor: pointer;
 }
 
-/* ══════════════════ cabeçalho ══════════════════ */
+/*cabeçalho*/
 header {
     background-color: #a8d5a2;
     text-align: center;
@@ -60,7 +60,7 @@ header {
 }
 header h1 { margin: 0; }
 
-/* ══════════════════ TROCA DE PÁGINA ══════════════════ */
+/* Troca Pagina*/
 .page { display: none; }
 .page.active { display: block; }
 
@@ -178,7 +178,7 @@ header h1 { margin: 0; }
   padding: 30px 20px;
 }
 
-/* ══════════════════ GUIA  ══════════════════ */
+/* Guia */
 .tag-pill {
   display: inline-block;
   border: 1px solid var(--border);
@@ -277,7 +277,7 @@ header h1 { margin: 0; }
 
 @media (max-width: 800px) { .plate-grid { grid-template-columns: repeat(2, 1fr); } }
 
-/* ══════════════════ ARTIGOS ══════════════════ */
+/*Cards*/
 .articles-inner > header { text-align: center; margin-bottom: 24px; }
 
 .stats-grid {
@@ -359,7 +359,7 @@ header h1 { margin: 0; }
 
 @media (max-width: 640px) { .article-header { flex-wrap: wrap; } }
 
-/* ══════════════════ CONTATO ══════════════════ */
+/*Contato */
 .contact-inner > header { text-align: center; margin-bottom: 24px; }
 .contact-inner > header h1 span { color: var(--blue-text); }
 
@@ -442,7 +442,7 @@ header h1 { margin: 0; }
   .form-row { grid-template-columns: 1fr; }
 }
 
-/* ══════════════════ RODAPÉ ══════════════════ */
+/* Baixo */
 footer {
   background-color: var(--green-bg);
   text-align: center;
@@ -450,7 +450,7 @@ footer {
   border-top: 2px solid var(--border);
 }
 
-/* ══════════════════ RESPONSIVO GERAL ══════════════════ */
+/* Geral */
 @media (max-width: 800px) {
   .hero, .why-section, .cta-strip,
   .guide-inner, .articles-inner, .contact-inner {
