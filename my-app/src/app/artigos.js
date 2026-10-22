@@ -2,6 +2,7 @@
 import React from "react";
 import "./artigos.css";
 import "../styles.css";
+import Link from 'next/link';
 
 function Artigos() {
   return (
@@ -16,8 +17,8 @@ function Artigos() {
         <h1>Artigos Científicos</h1>
 
         <nav>
-          <a href="/">HOME</a>
-          <a href="/guia-alimentacao">
+          <link href="/">HOME</a> 
+          <link href="/guia-alimentacao">
             Guia de Alimentos
           </a>
         </nav>
