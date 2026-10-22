@@ -90,15 +90,20 @@ Adicione os três arquivos de imagem à pasta `imagens/` do repositório e use o
 
 ### Home
 
-![Imagem 1 ](home/Home.jpeg)
+<img width="1919" height="866" alt="Captura de tela 2026-05-07 092346" src="https://github.com/user-attachments/assets/98135498-68d3-4206-b10d-762ae9701307" />
+<hr>
+<img src="public/Home.jpeg" alt="Home" width="1919" height="866"/>
+<hr>
+
+
 
 ### Guia
 
-![Imagem 2 ](Guia/Guia.jpeg)
+<img width="1919" height="851" alt="Tela da materia 1" src="public/Guia.jpeg" >)
 
 ### Artigos
 
-![Imagem 3](artigos/artigos.jpeg)
+<img width="1919" height="851" alt="Tela da materia 1" src="public/Artigos.jpeg" />
 =======
 Projeto Lagarta — Tutorial e Documentação
 
