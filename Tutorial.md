@@ -186,3 +186,6 @@ As informações apresentadas nos artigos são inseridas numa const, otimizando 
 
 As informações como conteúdo, título, descrição, DOI e link viram uma variável que funciona dentro da primeira const.
 >>>>>>> ce1536d70359d5255eff505464f669b3ded4849c
+
+## React
+Portamos todas as paginas para o react, fizemos ajustes para linkar as paginas e fazer o css funcionar.
