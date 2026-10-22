@@ -90,9 +90,8 @@ Adicione os três arquivos de imagem à pasta `imagens/` do repositório e use o
 
 ### Home
 
-<img width="1919" height="866" alt="Home" src="Home.png" />
+<img width="1800" height="800" alt="Home" src="Home.png" />
 <hr>
-<img src="main/Home.jpeg" alt="Home" width="1919" height="866"/>
 <hr>
 
 
