@@ -1,5 +1,6 @@
-import nutriKidsImg from "./NutriKids.jpeg";
 
+import "./globals.css";
+import "./styles.css"; 
 export default function Home() {
   return (
     <main className="page active" id="page-intro">
@@ -33,7 +34,6 @@ export default function Home() {
           </header>
           <figure className="hero-img-wrap">
             <span className="img-frame">
-              <img src={nutriKidsImg} alt="Logo NutriKids" />
             </span>
             <span className="badge badge-yellow">🍎 +50 alimentos</span>
             <span className="badge badge-blue">💪 100% saudável</span>
