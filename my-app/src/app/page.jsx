@@ -1,6 +1,6 @@
-
+import Link from "next/link";
 import "./globals.css";
-import "./styles.css"; 
+import "./styles.css";
 export default function Home() {
   return (
     <main className="page active" id="page-intro">
@@ -20,20 +20,21 @@ export default function Home() {
               aprender todo dia.
             </p>
             <div className="hero-btns">
-              <a href="guia-alimentacao.html">
+              <Link href="/guia-alimentacao">
                 <button className="btn-green" data-goto="guide">
                   🥦 Ver o Guia Alimentar
                 </button>
-              </a>
-              <a href="artigos.html">
+              </Link>
+              <Link href="/artigos">
                 <button className="btn-blue" data-goto="articles">
                   📚 Artigos Científicos
                 </button>
-              </a>
+              </Link>
             </div>
           </header>
           <figure className="hero-img-wrap">
             <span className="img-frame">
+              <img src="/NutriKids.jpeg" alt="Logo NutriKids" />
             </span>
             <span className="badge badge-yellow">🍎 +50 alimentos</span>
             <span className="badge badge-blue">💪 100% saudável</span>
@@ -82,11 +83,11 @@ export default function Home() {
         <p>
           Explore o guia alimentar e descubra quais alimentos são seus aliados!
         </p>
-        <a href="guia-alimentacao.html">
+        <Link href="/guia-alimentacao">
           <button className="btn-white" data-goto="guide">
             Começar agora →
           </button>
-        </a>
+        </Link>
       </section>
     </main>
   );
