@@ -1,13 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
+import minhaLogo from './NutriKids.png';
 import "./globals.css";
 import "./styles.css";
 export default function Home() {
   return (
     <main className="page active" id="page-intro">
       <section className="hero">
-        <span className="blob blob-1"></span>
-        <span className="blob blob-2"></span>
         <div className="hero-grid">
+          <div>
+    </div>
           <header className="hero-text">
             <div className="hero-tag">🌟 Para crianças de 8 a 12 anos</div>
             <h1>
@@ -34,7 +36,7 @@ export default function Home() {
           </header>
           <figure className="hero-img-wrap">
             <span className="img-frame">
-              <img src="/NutriKids.jpeg" alt="Logo NutriKids" />
+              <Image src={minhaLogo} alt="Logo do projeto" width={150}/>
             </span>
             <span className="badge badge-yellow">🍎 +50 alimentos</span>
             <span className="badge badge-blue">💪 100% saudável</span>

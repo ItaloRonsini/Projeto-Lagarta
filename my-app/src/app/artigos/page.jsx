@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import minhaLogo from '../NutriKids.png';
 
 const artigos = [
   {
@@ -31,10 +33,10 @@ export default function Artigos() {
   return (
     <>
       <header>
-        <img className="img" src="/NutriKids.jpeg" alt="Logo NutriKids" />
-
+            <span className="img-frame">
+              <Image src={minhaLogo} alt="Logo do projeto" width={300}/>
+            </span>
         <h1>Artigos Científicos</h1>
-
         <nav>
           <Link href="/">HOME</Link>
           <Link href="/guia-alimentacao">Guia de Alimentos</Link>
