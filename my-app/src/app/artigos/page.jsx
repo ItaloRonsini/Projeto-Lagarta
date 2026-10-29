@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 const artigos = [
   {
     titulo: "Atuação de nutricionistas no PNAE e seus efeitos sobre o desempenho escolar",
