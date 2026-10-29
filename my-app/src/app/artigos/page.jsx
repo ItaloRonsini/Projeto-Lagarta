@@ -34,7 +34,7 @@ export default function Artigos() {
     <>
       <header>
             <span className="img-frame">
-              <Image src={minhaLogo} alt="Logo do projeto" width={300}/>
+              <Image src={minhaLogo} alt="Logo do projeto" width={3000}/>
             </span>
         <h1>Artigos Científicos</h1>
         <nav>
