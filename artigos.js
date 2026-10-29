@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./artigos.css";
+import "./styles.css";
 
 export default function Artigos() {
   return (
