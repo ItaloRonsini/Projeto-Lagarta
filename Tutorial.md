@@ -189,3 +189,12 @@ As informações como conteúdo, título, descrição, DOI e link viram uma vari
 
 ## React
 Portamos todas as paginas para o react, fizemos ajustes para linkar as paginas e fazer o css funcionar.
+
+
+Usamos para melhorar a organização, a interação entre as paginas, isso permite separar as partes da interface, tendo uma melhor organização do site, fizemos a migração para futuras melhoria, e importamos bibliotecas ,ajustamos as imagens do site. Foi realizadaa integração do java script no react.
+
+
+
+
+
+
