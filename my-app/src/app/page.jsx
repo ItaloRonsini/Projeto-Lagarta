@@ -35,8 +35,8 @@ export default function Home() {
             </div>
           </header>
           <figure className="hero-img-wrap">
-            <span className="img-frame">
-              <Image src={minhaLogo} alt="Logo do projeto" width={150}/>
+            <span className="img-frame-index">
+              <Image src={minhaLogo} alt="Logo do projeto" width={300}/>
             </span>
             <span className="badge badge-yellow">🍎 +50 alimentos</span>
             <span className="badge badge-blue">💪 100% saudável</span>
