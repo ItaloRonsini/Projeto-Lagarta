@@ -148,7 +148,7 @@ main {
 /* HERO */
 .hero {
     max-width: 1000px;
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 20px;
     position: relative;
 }
@@ -199,12 +199,20 @@ main {
 }
 
 /* IMAGENS UNIFICADAS */
-.img-frame,
 .img-frame-index {
     display: block;
     width: 100%;
     border-radius: var(--borda-aredondada);
     overflow: hidden;
+    margin-top: -240px;
+}
+
+.img-frame-index img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 .img-frame img {
