@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import minhaLogo from '../NutriKids.png';
 
 const TOTAL_DIAS = 7;
 
@@ -74,7 +76,9 @@ export default function GuiaAlimentacao() {
   return (
     <>
       <header>
-        <img src="/NutriKids.jpeg" alt="NutriKids" />
+        <span className="img-frame">
+              <Image src={minhaLogo} alt="Logo do projeto" width={300}/>
+            </span>
 
         <h1>GUIA DE ALIMENTOS SAUDÁVEIS</h1>
 
