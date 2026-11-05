@@ -194,7 +194,7 @@ Portamos todas as paginas para o react, fizemos ajustes para linkar as paginas e
 Usamos para melhorar a organização, a interação entre as paginas, isso permite separar as partes da interface, tendo uma melhor organização do site, fizemos a migração para futuras melhoria, e importamos bibliotecas ,ajustamos as imagens do site. Foi realizadaa integração do java script no react.
 
 
-
+Ajustamos o header das paginas, ajustamos as imagens referentes ao tamanho e a posição, deixamos nossa home mais limpa, e nosso style mais simplificado e objetivo, implementamos java script na pagina artigos.  
 
 
 
