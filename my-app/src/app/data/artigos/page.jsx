@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import minhaLogo from "../NutriKids.png";
+import minhaLogo from "../../NutriKids.png";
 
 async function getArtigos() {
   const base = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
