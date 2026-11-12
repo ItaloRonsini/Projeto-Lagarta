@@ -27,7 +27,7 @@ export default function Home() {
                   🥦 Ver o Guia Alimentar
                 </button>
               </Link>
-              <Link href="/artigos">
+              <Link href="/data/artigos">
                 <button className="btn-blue" data-goto="articles">
                   📚 Artigos Científicos
                 </button>
