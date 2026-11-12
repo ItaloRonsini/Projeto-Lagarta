@@ -196,5 +196,5 @@ Usamos para melhorar a organização, a interação entre as paginas, isso permi
 
 Ajustamos o header das paginas, ajustamos as imagens referentes ao tamanho e a posição, deixamos nossa home mais limpa, e nosso style mais simplificado e objetivo, implementamos java script na pagina artigos.  
 
-
+Fizemos a implementação da API na pagina de artigos. A API puxa as informações para os cards presente na pagina.
 
