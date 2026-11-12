@@ -84,7 +84,7 @@ export default function GuiaAlimentacao() {
 
         <nav>
           <Link href="/">HOME</Link>
-          <Link href="/artigos">Artigos</Link>
+          <Link href="../data/artigos">Artigos</Link>
         </nav>
       </header>
 
