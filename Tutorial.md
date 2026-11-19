@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Projeto Lagarta — Tutorial e Documentação
 
 **Autores:** Gustavo Cardoso Geres (RA: 10771408) | Ítalo Ronsini (RA: 10771384) | Gabriel Alonso (RA: 10771405)
